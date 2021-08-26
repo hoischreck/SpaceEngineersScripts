@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipAlignmentScript", "ShipAlignmentScript\ShipAlignmentScript.csproj", "{71B5832A-0B1A-49C4-B5BA-C0D40569F789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGCSystem", "IGCSystem\IGCSystem.csproj", "{8870CF1A-37A2-4495-820A-EBBE067880CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGC", "IGC", "{62A676EB-A0D7-403C-AD30-ADD8E7C180C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShipAlignment", "ShipAlignment", "{8259415B-59A5-4869-8712-D0CCCE3306FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{DDED6D6A-80D5-47FD-8B18-12B9E73766D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mixins", "Mixins", "{A95A3F3E-D29D-498F-9E41-1701763D7750}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IGC", "IGC\IGC.shproj", "{A47C905A-4DA8-42C2-A168-A309A39E22DA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core", "Output\Core.shproj", "{342911B4-504F-43AB-BB52-7A4972E4E96A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Output\Output.projitems*{342911b4-504f-43ab-bb52-7a4972e4e96a}*SharedItemsImports = 13
+		Output\Output.projitems*{71b5832a-0b1a-49c4-b5ba-c0d40569f789}*SharedItemsImports = 4
+		IGC\IGC.projitems*{8870cf1a-37a2-4495-820a-ebbe067880ca}*SharedItemsImports = 4
+		IGC\IGC.projitems*{a47c905a-4da8-42c2-a168-a309a39e22da}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B5832A-0B1A-49C4-B5BA-C0D40569F789}.Debug|x64.ActiveCfg = Debug|x64
+		{71B5832A-0B1A-49C4-B5BA-C0D40569F789}.Debug|x64.Build.0 = Debug|x64
+		{8870CF1A-37A2-4495-820A-EBBE067880CA}.Debug|x64.ActiveCfg = Debug|x64
+		{8870CF1A-37A2-4495-820A-EBBE067880CA}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8870CF1A-37A2-4495-820A-EBBE067880CA} = {62A676EB-A0D7-403C-AD30-ADD8E7C180C9}
+		{62A676EB-A0D7-403C-AD30-ADD8E7C180C9} = {DDED6D6A-80D5-47FD-8B18-12B9E73766D6}
+		{8259415B-59A5-4869-8712-D0CCCE3306FD} = {DDED6D6A-80D5-47FD-8B18-12B9E73766D6}
+		{DDED6D6A-80D5-47FD-8B18-12B9E73766D6} = {A95A3F3E-D29D-498F-9E41-1701763D7750}
+		{A47C905A-4DA8-42C2-A168-A309A39E22DA} = {A95A3F3E-D29D-498F-9E41-1701763D7750}
+		{342911B4-504F-43AB-BB52-7A4972E4E96A} = {A95A3F3E-D29D-498F-9E41-1701763D7750}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8F8D3ED-3C72-4330-8F9C-9A247F79CE14}
+	EndGlobalSection
+EndGlobal
