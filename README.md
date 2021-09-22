@@ -2,4 +2,5 @@
 Collection of Space Engineers C# scripts.
 
 > Finished:
-- ShipAlignmentScript
+- ShipAlignmentScript (Project)
+- Output (Collection)
